@@ -29,6 +29,5 @@ public class Josephus {
             }
         } while (count!=length);
         System.out.println("一共被淘汰"+count+"人");
-
     }
 }

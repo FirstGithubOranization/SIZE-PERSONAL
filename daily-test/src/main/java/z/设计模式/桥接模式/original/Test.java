@@ -6,7 +6,7 @@ package z.设计模式.桥接模式.original;
  * @author ZhongHe.Zh
  * @time 2017-08-18 12:06
  **/
-public class Test {
+public class     Test {
 
 
     public static void main(String[] args) {
