@@ -71,7 +71,6 @@ public class Test {
                     }
                 });
 
-        Runnable runable=()->{System.out.println("--->");};
-        new Thread(()->{System.out.println("--->");}).start();
+        new Thread(()->System.out.println("--->")).start();
     }
 }
