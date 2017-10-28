@@ -108,6 +108,7 @@ public class DataBase {
                     ps.setString(20, getRandomChar(100, 190));
                     ps.execute();
                     ps.close();
+                    System.out.println("线程 " +Thread.currentThread().getName() +" 插入第  "+i+" 条数据完成....");
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }

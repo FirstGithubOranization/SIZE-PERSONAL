@@ -1,0 +1,26 @@
+We noticed that your app is using consumable in-app purchase products as intermediary currency for the exchange of items that function as non-renewing subscriptions.
+
+Next Steps
+
+To resolve this issue, please delete your consumable in-app purchase products, then create separate non-renewing subscription in-app purchase products for each item that the user would have exchanged those consumable products for. This product type matches the usage model for the products you are ultimately selling to your users.
+
+Note: The product type cannot be changed once an in-app purchase product has been created. Therefore, you will need to create a new in-app purchase product with the correct product type.
+
+To create new in-app purchases:
+
+- Log in to iTunes Connect
+- Click on "My Apps"
+- Select your app
+- Click on "Features" to create new in-app purchases
+- Click Save
+- Once you've completed all changes, click the "Submit for Review" button at the top of the App Version Information page.
+
+Resources
+
+More information on in-app purchase product types is available in the In-App Purchase Programming Guide.
+
+Request a phone call from App Review
+
+At your request, we can arrange for an Apple Representative to call you within the next three to five business days to discuss your App Review issue.
+
+To request a call and ensure we have accurate contact information, reply directly to this message with a contact name and direct phone number to reach you.
